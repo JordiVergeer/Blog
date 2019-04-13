@@ -1,0 +1,377 @@
+/*----------------------------General------------------------------------------------------------------------------------*/
+
+body {
+    background: linear-gradient(132deg, #ec5218, #1665c1);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+    margin: 0px;
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+
+
+
+/*----------------------------index.PHP/admin.php-------------------------------------------------------------------------*/
+
+#blad {
+    position: relative;
+    top: 30px;
+
+}
+#header1 {
+    position: relative;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+}
+
+#header1 a {
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+.LoginLogoutButton{
+    position: absolute;
+    left: 1500px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#LoginButton{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#LoginButton:hover{
+    opacity: 1
+
+}
+
+#LogoutButton{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#LogoutButton:hover{
+    opacity: 1
+
+}
+
+#header2 {
+    position: relative;
+    width: 100%;
+    top: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 0 auto;
+    width: 900px;
+    border-radius: 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#formdiv {
+    position: relative;
+    height: 300px;
+    border: solid white 1px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 1000px;
+    top: 200px;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+}
+
+#EditButtonDiv {
+    position: absolute;
+    left: 700px;
+    top: 250px;
+
+}
+
+#title{
+
+    position: relative;
+    border: solid rgb(0, 65, 187) 1px;
+    color: rgb(0, 65, 187);
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: 'Architects Daughter', cursive;
+    border-radius: 7px;
+
+}
+
+#inhoud{
+
+    position: relative;
+    border: solid  rgb(236, 95, 0) 1px;
+    color: rgb(236, 95, 0);
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+    margin-bottom: 70px;
+    font-family: 'Architects Daughter', cursive;
+    border-radius: 7px;
+}
+
+
+ #EditButton {
+    position: relative;
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    left: 300px;
+}
+
+#AdminEditButton {
+    position: relative;
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    left: 250px;
+    top: -250px;
+}
+
+#EditButton:hover{
+    opacity: 1
+}
+
+#AdminEditButton:hover{
+    opacity: 1
+}
+
+textarea#TextareaInhoud1{
+    margin: 0px;
+    width: 1000px;
+    height: 245px;
+    resize: none;
+}
+/*----------------------------EDIT.PHP------------------------------------------------------------------------------------------*/
+
+#EditContainer{
+
+    position: relative;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 0 auto;
+    width: 900px;
+    border-radius: 20px;
+    font-family: 'Architects Daughter', cursive;
+    font-size:40px;
+
+}
+
+textarea#TextareaInhoud2{
+    margin: 0px;
+    width: 700px;
+    height: 325px;
+    resize: none;
+}
+
+
+#editform {
+
+    position: relative;
+    width: 700px;
+    height: 400px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    top: 250px;
+    border: red 1px solid;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+    font-family: 'Architects Daughter', cursive;
+
+
+}
+
+.ButtonGroup{
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    left: 350px;
+
+}
+
+
+.ButtonGroup #UpdateButton{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 10px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+
+.ButtonGroup #DeleteButton{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 10px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+
+.ButtonGroup #TerugButton{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 10px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.ButtonGroup #UpdateButton:hover{
+    opacity: 1
+
+}
+
+.ButtonGroup #DeleteButton:hover{
+    opacity: 1
+
+}
+
+.ButtonGroup #TerugButton:hover{
+    opacity: 1
+
+}
+
+
+
+/*----------------------------LOGIN.PHP------------------------------------------------------------------------------------------*/
+
+#LoginContainer{
+    position: relative;
+    width: 100%;
+    top: 300px;
+    height: 500px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 0 auto;
+    width: 900px;
+    border-radius: 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+#LoginButton2{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#TerugButton2{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#TerugButton2:hover{
+    opacity: 1
+
+}
+
+
+#LoginButton2:hover{
+    opacity: 1
+
+}
